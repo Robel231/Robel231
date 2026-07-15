@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="lineGrad" x1="80" y1="190" x2="920" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="nowGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .draw { stroke-dasharray: 845; stroke-dashoffset: 845; animation: draw 2s ease-out 0.2s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .fadeUp { opacity: 0; animation: fadeUp 0.8s ease-out forwards; }
+    .d1 { animation-delay: 0.5s; }
+    .d2 { animation-delay: 1.0s; }
+    .d3 { animation-delay: 1.5s; }
+    .d4 { animation-delay: 2.0s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+
+    .bob { animation: bob 2.4s ease-in-out infinite alternate; }
+    @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-5px); } }
+
+    .float1 { animation: drift 5s ease-in-out infinite alternate; }
+    .float2 { animation: drift 7s ease-in-out 1s infinite alternate; }
+    .float3 { animation: drift 6s ease-in-out 2s infinite alternate; }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-12px); } }
+
+    .title { font-size: 14px; font-weight: 700; letter-spacing: 5px; fill: #a78bfa; }
+    .subtitle { font-size: 13px; fill: #8b949e; }
+    .period { font-size: 13px; fill: #8b949e; font-family: Consolas, monospace; }
+    .role { font-size: 17px; font-weight: 700; fill: #e6edf3; }
+    .company { font-size: 14px; font-weight: 600; fill: #a78bfa; }
+    .highlight { font-size: 12px; fill: #6e7681; }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="998" height="318" rx="16" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- floating background particles -->
+  <circle class="float1" cx="120" cy="80" r="3" fill="#6366f1" opacity="0.25"/>
+  <circle class="float2" cx="640" cy="60" r="2.5" fill="#a78bfa" opacity="0.2"/>
+  <circle class="float3" cx="330" cy="255" r="3" fill="#a78bfa" opacity="0.18"/>
+  <circle class="float2" cx="905" cy="270" r="2.5" fill="#6366f1" opacity="0.22"/>
+  <circle class="float1" cx="760" cy="235" r="2" fill="#c4b5fd" opacity="0.2"/>
+  <circle class="float3" cx="475" cy="90" r="2" fill="#6366f1" opacity="0.2"/>
+
+  <!-- heading -->
+  <text class="title" x="40" y="52">CAREER TIMELINE</text>
+  <text class="subtitle" x="40" y="78">QA &#8594; SysAdmin &#8594; AI Engineering &#183; three years of shipping</text>
+
+  <!-- track + animated gradient line -->
+  <line x1="80" y1="190" x2="920" y2="190" stroke="#21262d" stroke-width="3" stroke-linecap="round"/>
+  <line class="draw" x1="80" y1="190" x2="920" y2="190" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- node 1 : Transsion -->
+  <g class="fadeUp d1">
+    <text class="period" x="200" y="152" text-anchor="middle">2023 &#8212; 2024</text>
+    <circle cx="200" cy="190" r="10" fill="#0d1117" stroke="#6366f1" stroke-width="2.5"/>
+    <circle cx="200" cy="190" r="4" fill="#a78bfa"/>
+    <text class="role" x="200" y="230" text-anchor="middle">Software Test Engineer</text>
+    <text class="company" x="200" y="253" text-anchor="middle">Transsion Manufacturing</text>
+    <text class="highlight" x="200" y="276" text-anchor="middle">100+ pre-release bugs caught</text>
+  </g>
+
+  <!-- node 2 : Abronet -->
+  <g class="fadeUp d2">
+    <text class="period" x="500" y="152" text-anchor="middle">2024 &#8212; Dec 2025</text>
+    <circle cx="500" cy="190" r="10" fill="#0d1117" stroke="#818cf8" stroke-width="2.5"/>
+    <circle cx="500" cy="190" r="4" fill="#a78bfa"/>
+    <text class="role" x="500" y="230" text-anchor="middle">System Administrator</text>
+    <text class="company" x="500" y="253" text-anchor="middle">Abronet PLC</text>
+    <text class="highlight" x="500" y="276" text-anchor="middle">99.9% uptime across enterprise platforms</text>
+  </g>
+
+  <!-- node 3 : Droga (present) -->
+  <g class="fadeUp d3">
+    <text class="period" x="800" y="152" text-anchor="middle">Nov 2025 &#8212; Present</text>
+    <!-- pulse rings -->
+    <circle cx="800" cy="190" r="12" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="12;34" dur="2.2s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2.2s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="190" r="12" fill="none" stroke="#6366f1" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="12;34" dur="2.2s" begin="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2.2s" begin="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="190" r="12" fill="url(#nowGrad)" filter="url(#softGlow)"/>
+    <circle cx="800" cy="190" r="4.5" fill="#ffffff"/>
+    <text class="role" x="800" y="230" text-anchor="middle">AI Specialist &amp; Full-Stack Dev</text>
+    <text class="company" x="800" y="253" text-anchor="middle">Droga Consultancy</text>
+    <text class="highlight" x="800" y="276" text-anchor="middle">Agentic AI systems in production</text>
+  </g>
+
+  <!-- NOW badge -->
+  <g class="fadeUp d4">
+    <g class="bob">
+      <rect x="774" y="96" width="52" height="24" rx="12" fill="url(#nowGrad)"/>
+      <text x="800" y="112" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="1.5">NOW</text>
+    </g>
+  </g>
+</svg>

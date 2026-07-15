@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1000 250" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="agentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="agentGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <style>
+    .flow { stroke-dasharray: 5 6; animation: flow 0.9s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -22; } }
+
+    .fadeUp { opacity: 0; animation: fadeUp 0.7s ease-out forwards; }
+    .p1 { animation-delay: 0.2s; }
+    .p2 { animation-delay: 0.45s; }
+    .p3 { animation-delay: 0.7s; }
+    .p4 { animation-delay: 0.95s; }
+    .p5 { animation-delay: 1.2s; }
+    .p6 { animation-delay: 1.6s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+    .glowPulse { animation: glowPulse 2.4s ease-in-out infinite alternate; }
+    @keyframes glowPulse { from { opacity: 0.25; } to { opacity: 0.6; } }
+
+    .title { font-size: 14px; font-weight: 700; letter-spacing: 5px; fill: #a78bfa; }
+    .subtitle { font-size: 13px; fill: #8b949e; }
+    .nodeTitle { font-size: 15px; font-weight: 700; fill: #e6edf3; }
+    .nodeSub { font-size: 11px; fill: #8b949e; }
+    .pill { font-size: 11px; fill: #a78bfa; font-family: Consolas, monospace; }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="998" height="248" rx="16" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- heading -->
+  <text class="title" x="40" y="46">AGENTIC PIPELINE</text>
+  <text class="subtitle" x="40" y="70">how my production systems think</text>
+
+  <!-- traveling data packet (rides under the node boxes) -->
+  <circle r="4" fill="#c4b5fd" filter="url(#agentGlow)">
+    <animateMotion path="M 30 142 L 970 142" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.5" fill="#ffffff">
+    <animateMotion path="M 30 142 L 970 142" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- connectors -->
+  <line class="flow" x1="192" y1="142" x2="223" y2="142" stroke="#a78bfa" stroke-width="2"/>
+  <line class="flow" x1="387" y1="142" x2="418" y2="142" stroke="#a78bfa" stroke-width="2"/>
+  <line class="flow" x1="582" y1="142" x2="613" y2="142" stroke="#a78bfa" stroke-width="2"/>
+  <line class="flow" x1="777" y1="142" x2="808" y2="142" stroke="#a78bfa" stroke-width="2"/>
+
+  <!-- node 1 : clients -->
+  <g class="fadeUp p1">
+    <rect x="30" y="110" width="160" height="64" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text class="nodeTitle" x="110" y="138" text-anchor="middle">Clients</text>
+    <text class="nodeSub" x="110" y="158" text-anchor="middle">React &#183; Telegram &#183; Mobile</text>
+  </g>
+
+  <!-- node 2 : fastapi -->
+  <g class="fadeUp p2">
+    <rect x="225" y="110" width="160" height="64" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text class="nodeTitle" x="305" y="138" text-anchor="middle">FastAPI</text>
+    <text class="nodeSub" x="305" y="158" text-anchor="middle">secure middleware</text>
+  </g>
+
+  <!-- node 3 : n8n -->
+  <g class="fadeUp p3">
+    <rect x="420" y="110" width="160" height="64" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text class="nodeTitle" x="500" y="138" text-anchor="middle">n8n</text>
+    <text class="nodeSub" x="500" y="158" text-anchor="middle">orchestration</text>
+  </g>
+
+  <!-- node 4 : AI agents (the star) -->
+  <g class="fadeUp p4">
+    <rect class="glowPulse" x="615" y="110" width="160" height="64" rx="12" fill="#a78bfa" filter="url(#agentGlow)"/>
+    <rect x="615" y="110" width="160" height="64" rx="12" fill="#161b22" stroke="url(#agentGrad)" stroke-width="2"/>
+    <text class="nodeTitle" x="695" y="138" text-anchor="middle">AI Agents</text>
+    <text class="nodeSub" x="695" y="158" text-anchor="middle">Gemini &#183; LangChain</text>
+  </g>
+
+  <!-- node 5 : data -->
+  <g class="fadeUp p5">
+    <rect x="810" y="110" width="160" height="64" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text class="nodeTitle" x="890" y="138" text-anchor="middle">Data</text>
+    <text class="nodeSub" x="890" y="158" text-anchor="middle">PostgreSQL &#183; Odoo</text>
+  </g>
+
+  <!-- stat pills -->
+  <g class="fadeUp p6">
+    <rect x="30" y="200" width="170" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text class="pill" x="115" y="216" text-anchor="middle">26-node chatbot</text>
+
+    <rect x="223" y="200" width="170" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text class="pill" x="308" y="216" text-anchor="middle">5 Gemini agents</text>
+
+    <rect x="416" y="200" width="170" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text class="pill" x="501" y="216" text-anchor="middle">8 live SQL tools</text>
+
+    <rect x="609" y="200" width="170" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text class="pill" x="694" y="216" text-anchor="middle">4 languages</text>
+
+    <rect x="802" y="200" width="168" height="24" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text class="pill" x="886" y="216" text-anchor="middle">20K+ users/mo</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Robel%20Shimeles&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%86%92%20AI%20Engineer%20%F0%9F%87%AA%F0%9F%87%B9&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Robel%20Shimeles&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI%20Specialist%20%26%20Full-Stack%20Developer%20%40%20Droga%20Consultancy%20%F0%9F%87%AA%F0%9F%87%B9&descAlignY=58&descSize=16&animation=twinkling" width="100%"/>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+intelligent+apps+for+Ethiopia+%F0%9F%87%AA%F0%9F%87%B9;Fine-tuning+AI+models+%2B+workflow+automation;React+%7C+FastAPI+%7C+N8N+%7C+OpenAI;From+Addis+Ababa+to+the+world+%F0%9F%8C%8D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=AI+Specialist+%40+Droga+Consultancy+%F0%9F%87%AA%F0%9F%87%B9;Building+agentic+AI+systems+that+ship+%F0%9F%9A%80;n8n+%C2%B7+LangChain+%C2%B7+Gemini+%C2%B7+FastAPI+%C2%B7+React;Amharic+voice+AI+%E2%80%94+built+for+Ethiopia;From+Addis+Ababa+to+the+world+%F0%9F%8C%8D)](https://git.io/typing-svg)
 
 </div>
 
@@ -24,9 +24,59 @@
 
 </div>
 
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
+
+## 💼 Where I've Shipped
+
+<div align="center">
+
+<img src="assets/career-timeline.svg" width="100%" alt="Career timeline: Software Test Engineer at Transsion (2023–2024) → System Administrator at Abronet PLC (2024–Dec 2025) → AI Specialist & Full-Stack Developer at Droga Consultancy (Nov 2025–Present)"/>
+
+</div>
 
 <br/>
+
+<details>
+<summary>&nbsp;<b>🟣 AI Specialist & Full-Stack Developer — Droga Consultancy</b> &nbsp;·&nbsp; <code>Nov 2025 — Present</code></summary>
+<br/>
+
+- ▹ **Agentic systems in production:** 26-node pharmacy chatbot (5 Gemini agents with shared memory), Odoo ERP assistant speaking natural language over 8 live SQL tools, Amharic voice registration.
+- ▹ **5+ secure FastAPI backends** bridging client frontends to n8n webhook workflows.
+- ▹ **SEO + GEO** for drogaconsulting.com — visible in Google *and* AI-powered search.
+- ▹ Shipped **DCS Wellness** and **DrogaPulse** SaaS — both live, both in daily use.
+
+`n8n` `LangChain` `FastAPI` `Gemini` `SEO/GEO`
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🔵 System Administrator — Abronet PLC</b> &nbsp;·&nbsp; <code>2024 — Dec 2025</code></summary>
+<br/>
+
+- ▹ **99.9% uptime** maintained across enterprise platforms.
+- ▹ Deployed and secured financial web platforms.
+- ▹ Scripted away routine maintenance — less overhead, fewer errors.
+
+`Linux` `Scripting` `Security`
+
+</details>
+
+<details>
+<summary>&nbsp;<b>⚪ Software Test Engineer — Transsion Manufacturing</b> &nbsp;·&nbsp; <code>2023 — 2024</code></summary>
+<br/>
+
+- ▹ **100+ pre-release bugs** caught across mobile and internal systems.
+- ▹ Product quality up **15%** through cross-functional SDLC work.
+
+`QA` `SDLC`
+
+</details>
+
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 🧠 Who Am I?
 
@@ -34,11 +84,11 @@
 <tr>
 <td width="55%">
 
-I'm a **Full-Stack Developer** on an aggressive trajectory into **AI Engineering** — and I build things that *actually ship*.
+I'm an **AI Specialist & Full-Stack Developer** at **Droga Consultancy** — and I build things that *actually ship*.
 
 My career started in the trenches: **software testing**, **system administration**, and making servers behave. That foundation gave me something most developers lack — a deep instinct for *reliability* at scale.
 
-Today, I architect end-to-end systems: elegant **React/Next.js** frontends, blazing **FastAPI** backends, intelligent **Telegram bots**, and sophisticated **N8N automation workflows** that save dozens of hours a week.
+Today, I architect **agentic AI systems** in production: multi-agent **Gemini** pipelines on **n8n**, natural-language interfaces over live ERP databases, **Amharic voice AI**, and the **FastAPI** middleware that holds it all together.
 
 > *"I don't just write code. I engineer leverage."*
 
@@ -49,11 +99,13 @@ I specialize in building for the **Ethiopian digital market** — high-traffic, 
 
 ```
 ┌─────────────────────────────┐
-│  🔭  Currently building     │
-│      AI-powered apps        │
+│  💼  Right now              │
+│      AI Specialist @        │
+│      Droga Consultancy      │
 │                             │
 │  🤖  Specialty              │
-│      N8N + OpenAI pipelines │
+│      Gemini + LangChain     │
+│      agents on n8n          │
 │                             │
 │  🌱  Deep diving into       │
 │      LLM fine-tuning        │
@@ -71,26 +123,83 @@ I specialize in building for the **Ethiopian digital market** — high-traffic, 
 </tr>
 </table>
 
-<br/>
-
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 🚀 What I Actually Do
 
 <div align="center">
 
-| 🌐 Full-Stack Dev | 🤖 AI & Automation | ☁️ DevOps & Scale | 🔍 Problem Solving |
-|:-----------------:|:------------------:|:-----------------:|:------------------:|
-| End-to-end apps from pixel-perfect UI to rock-solid API | OpenAI API integration, model fine-tuning, Telegram bots | Scalable deploys on Vercel + Render, Dockerized services | Systems thinking for the Ethiopian digital market |
-| React · Next.js · FastAPI · Flask · Django · Node.js | N8N event-driven workflows · AI automation pipelines | PostgreSQL · Supabase · Firebase · Linux · Git | Agile · Team leadership · Technical communication |
+| 🤖 AI & Agents | 🌐 Full-Stack Dev | ☁️ DevOps & Scale | 🔍 Problem Solving |
+|:--------------:|:-----------------:|:-----------------:|:------------------:|
+| Multi-agent Gemini pipelines, LangChain tools, Amharic voice AI | End-to-end apps from pixel-perfect UI to rock-solid API | Scalable deploys on Vercel + Render, Dockerized services | Systems thinking for the Ethiopian digital market |
+| n8n orchestration · OpenAI & Gemini APIs · Telegram bots | React · Next.js · FastAPI · Flask · Django · Node.js | PostgreSQL · Supabase · Redis · Linux · Git | Agile · Team leadership · Technical communication |
+
+</div>
+
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
+
+## 🤖 AI & Automation — My Edge
+
+This is what separates me from a typical web developer. I build **systems that think**:
+
+<div align="center">
+
+<img src="assets/agentic-pipeline.svg" width="100%" alt="Agentic pipeline: Clients (React, Telegram, Mobile) → FastAPI secure middleware → n8n orchestration → AI Agents (Gemini, LangChain) → Data (PostgreSQL, Odoo)"/>
 
 </div>
 
 <br/>
 
----
+```python
+# What I ship — in production, today 🚀
+production = {
+    "agentic_ai":     "26-node pharmacy chatbot — 5 Gemini agents with shared memory",
+    "erp_copilots":   "Odoo assistant answering natural language via 8 live SQL tools",
+    "voice_ai":       "Spoken Amharic in → structured records out",
+    "middleware":     "5+ secure FastAPI backends bridging frontends to n8n workflows",
+    "saas":           "DCS Wellness + DrogaPulse — live, in daily use, 4 languages",
+}
+
+reach  = "20K+ monthly users served by automated content pipelines"
+result = "Applications that scale, learn, and adapt — not just run."
+```
+
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
+
+## 🏗 Featured Builds
+
+<div align="center">
+
+| Project | What it is | Stack | Links |
+|:--------|:-----------|:------|:-----:|
+| **DCS Wellness** ⭐ | AI health platform — streaming diagnostics, Ethiopian food image recognition, 4 languages | `FastAPI` `React` `RN Expo` `Gemini` `Docker` | [Live ↗](https://drogapharma.rw) |
+| **DrogaPulse** ⭐ | Social-media SaaS — OAuth2 across 5 platforms, Gemini AI studio, Android via Capacitor | `FastAPI` `React` `Celery` `Redis` `Capacitor` | [Live ↗](https://drogapulse.mafilink.com) |
+| **AI Pharmacy Assistant** | 26 nodes, 5 specialist Gemini agents — guides patients, flags stock-outs | `n8n` `Gemini` `AI Agents` | 🟢 In production |
+| **Odoo ERP AI Assistant** | Ask the ERP anything — NL over 8 live PostgreSQL tools | `n8n` `LangChain` `PostgreSQL` | 🟢 In production |
+| **Amharic Voice Registration** | Voice AI for a language most models overlook | `Gemini 2.5 Flash` `n8n` `Multimodal` | 🟢 In production |
+| **Betting Tip by Robel** | 20K+ monthly visitors on automated n8n content pipelines | `Next.js` `n8n` `Vercel` | [Live ↗](https://betting-tip-by-robel.vercel.app/) |
+| **AI Cover Letter Generator** | Tailored cover letters for Ethiopian job seekers | `React` `FastAPI` `OpenAI` `Supabase` | [Live ↗](https://ai-cover-letter-ethiopia.vercel.app/) · [Code](https://github.com/Robel231/ai-cover-letter-ethiopia) |
+| **SEO + GEO** | drogaconsulting.com ranking in Google *and* AI answers | `Technical SEO` `Schema.org` `GEO` | [Live ↗](https://drogaconsulting.com) |
+
+</div>
+
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 🛠 Tech Arsenal
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,tailwind,fastapi,flask,django,nodejs,postgres,supabase,firebase,redis,docker,git,linux,vercel&perline=9" alt="Tech stack icons"/>
+
+</div>
 
 <br/>
 
@@ -98,18 +207,27 @@ I specialize in building for the **Ethiopian digital market** — high-traffic, 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![XML](https://img.shields.io/badge/XML-005FAD?style=flat-square&logo=w3c&logoColor=white)
+
+**🤖 AI & Automation** ← *This is where it gets interesting*
+
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![N8N](https://img.shields.io/badge/n8n_Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bots-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Model_Fine--Tuning-FF6F00?style=flat-square&logo=huggingface&logoColor=white)
 
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Expo](https://img.shields.io/badge/React_Native_Expo-000020?style=flat-square&logo=expo&logoColor=white)
 
 **Backend**
 
@@ -117,19 +235,14 @@ I specialize in building for the **Ethiopian digital market** — high-traffic, 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
 
-**🤖 AI & Automation** ← *This is where it gets interesting*
-
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![N8N](https://img.shields.io/badge/N8N_Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram_Bots-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Model_Fine--Tuning-FF6F00?style=flat-square&logo=huggingface&logoColor=white)
-
-**Databases**
+**Databases & Cache**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
 
 **DevOps & Tools**
@@ -139,34 +252,11 @@ I specialize in building for the **Ethiopian digital market** — high-traffic, 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-<br/>
-
----
-
-## 🤖 AI & Automation — My Edge
-
-This is what separates me from a typical web developer. I build **systems that think**:
-
-```python
-# What I do every day 🚀
-skills = {
-    "n8n_automations":    "Complex, event-driven workflows that replace repetitive work",
-    "openai_integration": "GPT-4 powered features embedded into production applications",
-    "model_fine_tuning":  "Domain-specific models trained for Ethiopian context & language",
-    "telegram_bots":      "High-traffic bots serving thousands of daily active users",
-    "ai_pipelines":       "End-to-end intelligent data processing architectures",
-}
-
-# The result?
-impact = "Applications that scale, learn, and adapt — not just run."
-```
-
-<br/>
-
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 📊 GitHub at a Glance
 
@@ -196,9 +286,9 @@ impact = "Applications that scale, learn, and adapt — not just run."
 
 </div>
 
-<br/>
-
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 🏆 GitHub Trophies
 
@@ -208,22 +298,23 @@ impact = "Applications that scale, learn, and adapt — not just run."
 
 </div>
 
-<br/>
-
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 🌍 Building for Ethiopia & Beyond
 
 I'm not just a developer — I understand the **Ethiopian market** deeply:
 
+- 🗣️ **Amharic-first AI** — voice and language systems for a language most models overlook
 - 📱 **Mobile-first architectures** for high-traffic, bandwidth-aware environments
 - 🚀 **Performance optimization** for users across Addis Ababa and every region
 - 🤝 **Local context** — building solutions that resonate culturally and functionally
 - 🌐 **Global standards** — every project meets international engineering quality bars
 
-<br/>
-
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 📈 Contribution Snake
 
@@ -237,19 +328,19 @@ I'm not just a developer — I understand the **Ethiopian market** deeply:
 
 </div>
 
-> 💡 **Enable the snake:** Repo → Actions → add the [Platane/snk](https://github.com/Platane/snk) workflow to auto-generate the SVG on every push.
+> 🐍 The snake workflow ships with this repo (`.github/workflows/snake.yml`) — it runs on every push and daily at midnight. The animation appears right after the first run.
 
-<br/>
-
----
+<div align="center">
+<img src="assets/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 💬 Let's Build Something
 
 I'm open to:
 
-- 🤝 **Freelance projects** — AI integration, automation, and full-stack builds
+- 🤝 **Freelance projects** — AI agents, automation, and full-stack builds
 - 🌱 **Open-source collaboration** — tools that benefit the Ethiopian developer community
-- 💡 **Consulting** — N8N workflows, FastAPI architecture, OpenAI API integration
+- 💡 **Consulting** — n8n workflows, FastAPI architecture, Gemini & OpenAI integration
 - 🚀 **Full-time opportunities** — remote-friendly, ambitious product teams
 
 <br/>
@@ -265,8 +356,6 @@ I'm open to:
 </div>
 
 <br/>
-
----
 
 <div align="center">
 
