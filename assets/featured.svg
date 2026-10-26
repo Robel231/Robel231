@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     role="img"
+     aria-label="Featured builds. EIMS E-Invoicing, in build: Ministry of Revenue e-invoicing, multi-tenant, signed and encrypted, 360+ Go tests, Go, PostgreSQL and React. DrogaBooking, in daily use: room and staff booking for a group of companies with an offline-first Android app, 82 endpoints and 600+ tests, FastAPI, Next.js and Flutter. DrogaPulse, live: plan, approve and publish to Facebook, Instagram, LinkedIn and X, 4 networks and about 400 tests, FastAPI, React, Celery and Gemini.">
+
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#211c47"/>
+      <stop offset="100%" stop-color="#14112b"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <style>
+      .card  { fill: url(#card); stroke: #8b5cf6; stroke-opacity: 0.5; stroke-width: 1.5; }
+      .title { font-size: 19px; font-weight: 700; fill: #ede9fe; }
+      .body  { font-size: 13px; fill: #b4bccd; }
+      .stack { font-size: 12px; font-weight: 600; fill: #a78bfa; }
+      .metric{ font-size: 13px; font-weight: 700; fill: #c4b5fd; }
+      .rule  { stroke: #a78bfa; stroke-opacity: 0.25; stroke-width: 1; }
+      .live  { fill: #34d399; } .build { fill: #fbbf24; }
+      .badge { font-size: 10.5px; font-weight: 700; letter-spacing: 1.2px; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    </style>
+  </defs>
+
+  <!-- EIMS -->
+  <g transform="translate(6 6)">
+    <rect class="card" width="314" height="238" rx="16"/>
+    <rect x="24" y="0.75" width="80" height="3" rx="1.5" fill="url(#bar)"/>
+    <circle class="build pulse" cx="30" cy="34" r="4.5"/>
+    <text class="badge build" x="42" y="38">IN BUILD</text>
+    <text class="title" x="24" y="72">EIMS E-Invoicing</text>
+    <text class="body" x="24" y="100">Ministry of Revenue e-invoicing for</text>
+    <text class="body" x="24" y="119">many taxpayers: RSA-signed requests,</text>
+    <text class="body" x="24" y="138">per-tenant AES-256-GCM, Amharic PDFs</text>
+    <line class="rule" x1="24" y1="160" x2="290" y2="160"/>
+    <text class="metric" x="24" y="186">360+ Go tests · govulncheck CI</text>
+    <text class="stack" x="24" y="212">Go · PostgreSQL · React</text>
+  </g>
+
+  <!-- DrogaBooking -->
+  <g transform="translate(343 6)">
+    <rect class="card" width="314" height="238" rx="16"/>
+    <rect x="24" y="0.75" width="80" height="3" rx="1.5" fill="url(#bar)"/>
+    <circle class="live pulse" cx="30" cy="34" r="4.5"/>
+    <text class="badge live" x="42" y="38">IN DAILY USE</text>
+    <text class="title" x="24" y="72">DrogaBooking</text>
+    <text class="body" x="24" y="100">Room and staff booking for a group</text>
+    <text class="body" x="24" y="119">of companies. No double booking,</text>
+    <text class="body" x="24" y="138">offline-first Android app</text>
+    <line class="rule" x1="24" y1="160" x2="290" y2="160"/>
+    <text class="metric" x="24" y="186">82 endpoints · 600+ tests</text>
+    <text class="stack" x="24" y="212">FastAPI · Next.js · Flutter</text>
+  </g>
+
+  <!-- DrogaPulse -->
+  <g transform="translate(680 6)">
+    <rect class="card" width="314" height="238" rx="16"/>
+    <rect x="24" y="0.75" width="80" height="3" rx="1.5" fill="url(#bar)"/>
+    <circle class="live pulse" cx="30" cy="34" r="4.5"/>
+    <text class="badge live" x="42" y="38">LIVE</text>
+    <text class="title" x="24" y="72">DrogaPulse</text>
+    <text class="body" x="24" y="100">Plan, approve and publish to</text>
+    <text class="body" x="24" y="119">Facebook, Instagram, LinkedIn and X,</text>
+    <text class="body" x="24" y="138">with Gemini captions and reports</text>
+    <line class="rule" x1="24" y1="160" x2="290" y2="160"/>
+    <text class="metric" x="24" y="186">4 networks · ~400 tests</text>
+    <text class="stack" x="24" y="212">FastAPI · React · Celery · Gemini</text>
+  </g>
+</svg>

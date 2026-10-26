@@ -21,7 +21,20 @@ permissions:
   contents: write
 
 jobs:
+  # Skips the run, instead of failing it, until METRICS_TOKEN is set.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      ready: ${{ steps.token.outputs.ready }}
+    steps:
+      - id: token
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: echo "ready=${{ env.METRICS_TOKEN != '' }}" >> "$GITHUB_OUTPUT"
+
   metrics:
+    needs: check
+    if: needs.check.outputs.ready == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Generate profile metrics

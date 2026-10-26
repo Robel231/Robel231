@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Robel%20Shemeles&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI%20Specialist%20%26%20Full-Stack%20Developer%20%40%20Droga%20Consultancy%20%F0%9F%87%AA%F0%9F%87%B9&descAlignY=58&descSize=16&animation=twinkling" width="100%" alt="Robel Shemeles, AI Specialist and Full-Stack Developer at Droga Consultancy"/>
+<img src="assets/header.svg" width="100%" alt="Robel Shemeles, AI Specialist and Full-Stack Developer at Droga Consultancy, Addis Ababa"/>
 
 </div>
 
@@ -67,7 +67,7 @@ Right now I'm building **EIMS**, a multi-tenant Go platform for Ethiopia's Minis
 │      habesha-names 0.2.0    │
 │      live on PyPI           │
 │                             │
-│  🇪🇹  Based in              │
+│  📍  Based in               │
 │      Addis Ababa, Ethiopia  │
 └─────────────────────────────┘
 ```
@@ -191,11 +191,18 @@ pip install habesha-names
 
 ## 🏗 Products and Platforms
 
-| Project | What it is | Stack | Link |
+<div align="center">
+
+<a href="https://robel-portfolio-ten.vercel.app/#projects"><img src="assets/featured.svg" width="100%" alt="Featured builds: EIMS E-Invoicing (in build, 360+ Go tests), DrogaBooking (in daily use, 82 endpoints and 600+ tests) and DrogaPulse (live, publishes to Facebook, Instagram, LinkedIn and X)"/></a>
+
+[**DrogaPulse live ↗**](https://drogapulse.drogatech.com) &nbsp;·&nbsp; EIMS and DrogaBooking run behind company logins, demo on request
+
+</div>
+
+<br/>
+
+| More builds | What it is | Stack | Link |
 |:--------|:-----------|:------|:----:|
-| **EIMS E-Invoicing** ⭐ | Multi-tenant platform that registers invoices, receipts, credit and debit notes and cancellations with Ethiopia's Ministry of Revenue EIMS API. Byte-exact SHA512withRSA signing, per-tenant AES-256-GCM keys, RBAC, TOTP, Amharic PDF invoices, 360+ Go tests | `Go` `chi` `pgx` `PostgreSQL` `React` | In development |
-| **DrogaBooking** ⭐ | Room and staff booking for a group of companies: 82 endpoints, 600+ tests, no double booking by database rule, per-company billing, offline-first Android app | `FastAPI` `PostgreSQL` `Next.js` `Flutter` | In-house |
-| **DrogaPulse** ⭐ | Social media SaaS: plan, approve and publish to Facebook, Instagram, LinkedIn and X from one calendar, with an Ethiopian calendar view, Gemini captions and reports, Android via Capacitor | `FastAPI` `React` `Celery` `Redis` `Capacitor` | [Live ↗](https://drogapulse.drogatech.com) |
 | **DCS Wellness** | AI health platform with streaming diagnostics, Ethiopian food image recognition, 4 languages | `FastAPI` `React` `RN Expo` `Gemini` `Docker` | [Live ↗](https://yene-jegna.drogapharma.rw) |
 | **Wuten** | Finance app that reads Ethiopian bank and telebirr SMS to log spending: budgets, savings goals, equb, debts and an AI assistant, ~430 tests | `Flutter` `Dart` `SQLite` | Demo on request |
 | **Executive Dashboard API** | Go backend for a group executive dashboard: approvals, tasks, risks, KPIs and an audit trail. 68 routes, 351 end-to-end checks | `Go` `chi` `pgx` `goose` `Next.js 15` | In development |
@@ -324,16 +331,12 @@ I'm open to:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Thanks%20for%20visiting!%20%F0%9F%87%AA%F0%9F%87%B9&fontSize=20&fontColor=a78bfa&fontAlignY=65" width="100%" alt=""/>
+<img src="assets/footer.svg" width="100%" alt="Thanks for visiting! Engineered in Addis Ababa, deployed to the world."/>
 
 <br/>
 
 ![Profile views](https://komarev.com/ghpvc/?username=Robel231&color=a78bfa&style=flat-square&label=Profile+Views)
 &nbsp;
 ![GitHub followers](https://img.shields.io/github/followers/Robel231?style=flat-square&color=a78bfa&label=Followers&logo=github)
-
-<br/>
-
-*⚡ Engineered in Addis Ababa · Deployed to the world 🌍*
 
 </div>
