@@ -41,6 +41,6 @@
     <circle cx="850" cy="72" r="5.5" fill="#a78bfa"/>
     <text x="850" y="118" font-size="16" font-weight="700" fill="#8b5cf6">AI Specialist and Full-Stack Dev</text>
     <text x="850" y="140" font-size="13.5" fill="#94a3b8">Droga Consultancy</text>
-    <text x="850" y="164" font-size="12" fill="#94a3b8" opacity="0.85">n8n · LangChain · Gemini · FastAPI</text>
+    <text x="850" y="164" font-size="12" fill="#94a3b8" opacity="0.85">FastAPI · Go · n8n · Gemini</text>
   </g>
 </svg>
