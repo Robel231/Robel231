@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=AI+Specialist+%40+Droga+Consultancy+%F0%9F%87%AA%F0%9F%87%B9;FastAPI+%C2%B7+Go+%C2%B7+Next.js+%C2%B7+Flutter+%C2%B7+n8n+%C2%B7+Gemini;Building+EIMS%3A+Go+e-invoicing+for+Ethiopia+%F0%9F%A7%BE;Permission-scoped+AI+agents%2C+in+daily+use+%F0%9F%A4%96;Amharic+voice+AI%2C+built+for+Ethiopia;From+Addis+Ababa+to+the+world+%F0%9F%8C%8D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=AI+Specialist+%40+Droga+Consultancy+%F0%9F%87%AA%F0%9F%87%B9;FastAPI+%C2%B7+Go+%C2%B7+Next.js+%C2%B7+Flutter+%C2%B7+n8n+%C2%B7+Gemini;Building+EIMS%3A+Go+e-invoicing+for+Ethiopia+%F0%9F%A7%BE;Droga+Pharmacy%3A+AI+assistant+%2B+live+Odoo+stock+%F0%9F%92%8A;Permission-scoped+AI+agents%2C+in+daily+use+%F0%9F%A4%96;Amharic+voice+AI%2C+built+for+Ethiopia;From+Addis+Ababa+to+the+world+%F0%9F%8C%8D)](https://git.io/typing-svg)
 
 </div>
 
@@ -42,7 +42,9 @@ I'm an **AI Specialist and Full-Stack Developer** at **Droga Consultancy** with 
 
 My career started in the trenches: **software testing** and **system administration**. That foundation gave me an instinct most developers pick up late, if at all: a feel for *uptime, security and tests*.
 
-Today I build and run production systems end to end: **FastAPI and Go** backends, **Next.js** web apps, offline-first **Flutter** apps, and **AI assistants on n8n and Gemini** for pharmacy, HR, ERP and suppliers, all in daily use across a group of companies. The AI only ever runs approved, permission-scoped queries, never its own SQL.
+Today I build and run production systems end to end: **FastAPI, Go and Laravel** backends, **Next.js** web apps, offline-first **Flutter** apps, and **AI assistants on n8n and Gemini** for pharmacy, HR, ERP and suppliers, all in daily use across a group of companies. The AI only ever runs approved, permission-scoped queries, never its own SQL.
+
+Most recently I moved **Droga Pharmacy's online shop** onto its own server with Coolify, rewrote its Odoo 19 stock sync so stock reaches the shop within seconds, and rebuilt its AI assistant on a search API made for it.
 
 Right now I'm building **EIMS**, a multi-tenant Go platform for Ethiopia's Ministry of Revenue e-invoicing API.
 
@@ -64,8 +66,8 @@ Right now I'm building **EIMS**, a multi-tenant Go platform for Ethiopia's Minis
 │      AI agents on n8n       │
 │                             │
 │  📦  Latest ship            │
-│      habesha-names 0.2.0    │
-│      live on PyPI           │
+│      Droga Pharmacy shop:   │
+│      Odoo sync + AI chat    │
 │                             │
 │  📍  Based in               │
 │      Addis Ababa, Ethiopia  │
@@ -94,14 +96,15 @@ Right now I'm building **EIMS**, a multi-tenant Go platform for Ethiopia's Minis
 <summary>&nbsp;<b>🟣 AI Specialist and Full-Stack Developer, Droga Consultancy</b> &nbsp;·&nbsp; <code>Nov 2025 to present</code></summary>
 <br/>
 
+- ▹ **Droga Pharmacy online shop ([drogapharmacy.com](https://drogapharmacy.com)):** moved the Laravel and React shop from shared hosting to its own VPS on Coolify (Docker images, CI builds, Traefik, nightly off-site backups). Rewrote the Odoo 19 ERP stock sync so shelf stock reaches the shop within seconds, ending a month of stale stock and 1,775 products stuck out of stock. Rebuilt its AI assistant (n8n, Gemini) on a product search API instead of model-written SQL: each message goes to the cheapest handler (fixed replies with no AI, a small classifier, stock and symptom agents), with prescription photo reading and staff pages for restock requests and chat logs. Tokens per answer down 28%, chit-chat down 83%.
 - ▹ **DrogaBooking:** room and staff booking for the group companies, built end to end. FastAPI and PostgreSQL backend (82 endpoints, 600+ tests, database rules that make double booking impossible), Next.js web app, offline-first Flutter Android app, per-company billing.
 - ▹ **DrogaPulse:** social media SaaS that schedules and publishes to Facebook, Instagram, LinkedIn and X, with Gemini captions and reports, a Celery/Redis queue and a Capacitor Android app. Live since spring 2026.
 - ▹ **EIMS, in development:** multi-tenant Go e-invoicing platform for the Ministry of Revenue. Byte-exact SHA512withRSA request signing, per-tenant AES-256-GCM encryption, RBAC, TOTP, a tamper-evident audit log and Amharic PDF invoices. 360+ Go tests.
-- ▹ **AI assistants on n8n and Gemini, in daily use:** a pharmacy chatbot that reads prescription photos, an HR performance assistant with role-based access, an Odoo ERP assistant, a supplier portal assistant and Amharic voice registration.
+- ▹ **Other AI assistants on n8n and Gemini, in daily use:** an HR performance assistant with role-based access, an Odoo ERP assistant, a supplier portal assistant and Amharic voice registration.
 - ▹ **Data and Go APIs:** a market intelligence dashboard and AI chatbot on regulator import data, and the Go API (chi, pgx, goose, JWT) of a group executive dashboard.
-- ▹ Run the production servers (Docker, Traefik, nginx, Cloudflare, CI/CD, backups) and the **SEO and GEO** for [drogaconsulting.com](https://drogaconsulting.com).
+- ▹ Run the production servers (Docker, Coolify, Traefik, nginx, Cloudflare, CI/CD, backups) and the **SEO and GEO** for [drogaconsulting.com](https://drogaconsulting.com).
 
-`FastAPI` &nbsp;`Go` &nbsp;`PostgreSQL` &nbsp;`Next.js` &nbsp;`Flutter` &nbsp;`n8n` &nbsp;`Gemini` &nbsp;`Docker` &nbsp;`SEO/GEO`
+`FastAPI` &nbsp;`Go` &nbsp;`Laravel` &nbsp;`PostgreSQL` &nbsp;`Next.js` &nbsp;`Flutter` &nbsp;`n8n` &nbsp;`Gemini` &nbsp;`Docker` &nbsp;`Coolify` &nbsp;`SEO/GEO`
 
 </details>
 
@@ -147,7 +150,8 @@ Right now I'm building **EIMS**, a multi-tenant Go platform for Ethiopia's Minis
 production = {
     "booking":      "DrogaBooking: 82 endpoints, 600+ tests, offline-first Flutter app",
     "saas":         "DrogaPulse: one calendar for Facebook, Instagram, LinkedIn and X",
-    "agentic_ai":   "26-node pharmacy chatbot, 5 Gemini agents with shared memory",
+    "pharmacy":     "Droga Pharmacy shop on Coolify, Odoo stock synced in seconds",
+    "agentic_ai":   "Pharmacy assistant routes each message to its cheapest handler",
     "rbac_agents":  "HR assistant where each role sees only what it is allowed to",
     "erp_copilots": "Odoo assistant answering natural language via 8 live SQL tools",
     "voice_ai":     "Spoken Amharic in, structured records out",
@@ -156,6 +160,7 @@ production = {
 }
 
 building = "EIMS: Go e-invoicing for Ethiopia's Ministry of Revenue, 360+ tests"
+payments = "AnchorBirr: a Rust gateway for telebirr, M-Pesa and CBE Birr"
 rule     = "The AI runs approved, permission-scoped queries. Never its own SQL."
 ```
 
@@ -174,6 +179,8 @@ rule     = "The AI runs approved, permission-scoped queries. Never its own SQL."
 Ethiopian and Eritrean **name intelligence** for Python. Ge'ez to Latin transliteration and back, spelling-variant generation, patronymic-aware parsing and sound-alike matching, built for **KYC/AML, remittance and HR** systems that keep failing on Habesha names.
 
 **Zero dependencies · Fully typed · Tested on 1,700+ name pairs · ~50K matches per second · Native-speaker curated**
+
+**New on `main`:** a `NameIndex` that searches and de-duplicates whole name lists exactly, and a `habesha-names` command line that does the same for a CSV file.
 
 ```bash
 pip install habesha-names
@@ -203,6 +210,8 @@ pip install habesha-names
 
 | More builds | What it is | Stack | Link |
 |:--------|:-----------|:------|:----:|
+| **Droga Pharmacy online shop** | Online pharmacy: moved onto its own Coolify server, Odoo 19 stock synced within seconds, AI assistant rebuilt on a search API, staff pages for restock requests and chat logs | `Laravel` `Filament` `React` `Odoo` `Coolify` | [Live ↗](https://drogapharmacy.com) |
+| **AnchorBirr** | Payment gateway for Ethiopian rails: one API for telebirr, M-Pesa Ethiopia and CBE Birr, with refunds, a double-entry ledger, signed webhooks, a checkout in Amharic and English, and an AI review that flags mismatches in a merchant's licence, TIN and ID | `Rust` `axum` `PostgreSQL` `React` | In development |
 | **DCS Wellness** | AI health platform with streaming diagnostics, Ethiopian food image recognition, 4 languages | `FastAPI` `React` `RN Expo` `Gemini` `Docker` | [Live ↗](https://yene-jegna.drogapharma.rw) |
 | **Wuten** | Finance app that reads Ethiopian bank and telebirr SMS to log spending: budgets, savings goals, equb, debts and an AI assistant, ~430 tests | `Flutter` `Dart` `SQLite` | Demo on request |
 | **Executive Dashboard API** | Go backend for a group executive dashboard: approvals, tasks, risks, KPIs and an audit trail. 68 routes, 351 end-to-end checks | `Go` `chi` `pgx` `goose` `Next.js 15` | In development |
@@ -214,7 +223,7 @@ pip install habesha-names
 
 | System | What it does | Stack |
 |:-------|:-------------|:------|
-| **AI Pharmacy Assistant** | 26 nodes, 5 specialist Gemini agents with shared memory. Reads prescription photos, guides patients, flags stock-outs | `n8n` `Gemini` `Vision` |
+| **AI Pharmacy Assistant** | Answers stock, price and symptom questions for Droga Pharmacy's shop. Each message goes to its cheapest handler: a fixed reply with no AI, a flash-lite classifier, then a stock or a symptom agent that searches through an API made for it, never SQL. Reads prescription photos and logs restock requests for staff. Tokens per answer down 28%, chit-chat down 83% | `n8n` `Gemini` `Laravel API` `Vision` |
 | **HR Performance Assistant** | Employees, managers and HR each see only what their role allows. FastAPI middleware checks a signed JWT, and the agent runs only permission-scoped, read-only queries | `n8n` `FastAPI` `JWT` `RBAC` |
 | **Odoo ERP AI Assistant** | Ask the ERP anything. Natural language over 8 live PostgreSQL tools | `n8n` `LangChain` `PostgreSQL` |
 | **Market Intelligence Chatbot** | Who imports what, and at what price. Python ETL over regulator import-permit data, with a FastAPI and React dashboard | `Python` `PostgreSQL` `FastAPI` `React` |
@@ -230,7 +239,7 @@ pip install habesha-names
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,go,fastapi,django,flask,nodejs,ts,js,react,nextjs,flutter,dart,tailwind,postgres,mysql,redis,supabase,docker,nginx,cloudflare,linux,git,githubactions,vercel&perline=12" alt="Python, Go, FastAPI, Django, Flask, Node.js, TypeScript, JavaScript, React, Next.js, Flutter, Dart, Tailwind, PostgreSQL, MySQL, Redis, Supabase, Docker, nginx, Cloudflare, Linux, Git, GitHub Actions, Vercel"/>
+<img src="https://skillicons.dev/icons?i=python,go,php,laravel,rust,fastapi,django,flask,nodejs,ts,js,react,nextjs,flutter,dart,tailwind,postgres,mysql,redis,supabase,docker,nginx,cloudflare,linux,git,githubactions,vercel&perline=14" alt="Python, Go, PHP, Laravel, Rust, FastAPI, Django, Flask, Node.js, TypeScript, JavaScript, React, Next.js, Flutter, Dart, Tailwind, PostgreSQL, MySQL, Redis, Supabase, Docker, nginx, Cloudflare, Linux, Git, GitHub Actions, Vercel"/>
 
 </div>
 
@@ -240,10 +249,10 @@ pip install habesha-names
 |:--|:--|
 | **🤖 AI and agents** | Gemini · OpenAI · Claude · LangChain · RAG · n8n orchestration · Telegram bots · Multimodal and Amharic voice pipelines |
 | **🌐 Frontend and mobile** | React · Next.js · TypeScript · Tailwind · Flutter (Dart) · React Native (Expo) · Capacitor |
-| **⚙️ Backend** | Python · FastAPI · Go (chi, pgx) · Django · Flask · Node.js · Celery · REST and webhook design |
-| **🗄 Data** | PostgreSQL · MySQL · Redis · Supabase · Firebase · SQLite · SQLAlchemy and Alembic · goose |
+| **⚙️ Backend** | Python · FastAPI · Go (chi, pgx) · PHP (Laravel, Filament) · Rust (axum) · Django · Flask · Node.js · Celery · REST and webhook design |
+| **🗄 Data** | PostgreSQL · MySQL/MariaDB · Redis · Supabase · Firebase · SQLite · SQLAlchemy and Alembic · goose · Odoo ERP API |
 | **🔐 Security** | JWT/RBAC · TOTP · SHA512withRSA request signing · AES-256-GCM per-tenant encryption · tamper-evident audit logs · govulncheck |
-| **☁️ Infra** | Docker Compose · nginx · Traefik · Cloudflare · Linux (Fedora, Ubuntu, Kali) · GitHub Actions CI/CD · Vercel · Render · Contabo VPS · backups |
+| **☁️ Infra** | Docker Compose · Coolify · nginx · Traefik · Cloudflare · Linux (Fedora, Ubuntu, Kali) · GitHub Actions CI/CD · Vercel · Render · Contabo VPS · backups |
 | **🔍 Craft** | pytest · Vitest · QA instincts from a testing background · Technical SEO and GEO · Systems thinking · Technical writing and team enablement |
 
 <div align="center">
@@ -295,7 +304,7 @@ pip install habesha-names
 ## 🌍 Building for Ethiopia and Beyond
 
 - 🗣️ **Amharic-first:** voice AI, Amharic PDF invoices and bilingual consoles, for a language most models overlook
-- 🧾 **Local rails:** Ministry of Revenue e-invoicing, bank and telebirr SMS, equb and the Ethiopian calendar
+- 🧾 **Local rails:** Ministry of Revenue e-invoicing, telebirr and M-Pesa payments, bank SMS, equb and the Ethiopian calendar
 - 📱 **Mobile-first and offline-first** apps for bandwidth-aware environments
 - 🤝 **Local context:** solutions that land culturally as well as functionally
 - 🌐 **Global standards:** every project built to international engineering quality bars
